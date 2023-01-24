@@ -1,0 +1,32 @@
+/* body {
+    background-image: linear-gradient(180deg, purple,#00ff00, silver);
+
+} */
+
+
+#container {
+    padding:0;
+	width: 100%;
+    height: 100%;
+    object-fit: contain;    
+}
+
+
+/* div {            
+    height: 100%;
+    width: 100%;
+    overflow:hidden;   /*The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+
+}*/
+
+#videoElement {
+    width:100%;      /*If the width property is set to 100%, the video player will be responsive and scale up and down:*/
+    height: 100%;        
+    object-fit: fill;
+    transition: all 6s;
+    transform: scale(var(--scale)) translateX(var(--translate-x)) translateY(var(--translate-y)); 
+    outline: none; 
+    
+}
+
+
