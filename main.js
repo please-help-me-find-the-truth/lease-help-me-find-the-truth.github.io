@@ -3,7 +3,7 @@ var video = document.querySelector("#videoElement");
 if (navigator.mediaDevices.getUserMedia) {
   navigator.mediaDevices.getUserMedia({ video: true,
     video: {
-      facingMode: 'environment'
+      facingMode: 'user'
     } })
     .then(function (stream) {
       video.srcObject = stream;
